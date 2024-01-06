@@ -3,7 +3,6 @@
     src: url(assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
    }
    
-
    .attribution {
         position: absolute;
         bottom: 2px;
@@ -148,6 +147,13 @@ button {
     background-color: hsl(224, 30%, 27%);
 }
 
+button:hover {
+    background-image: linear-gradient(
+                hsl(252, 100%, 67%),
+                hsl(241, 81%, 54%));
+    color: hsl(0, 0%, 100%);;
+}
+
 .summary-points {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -165,8 +171,9 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
+
+
 
 #memory {
     padding: 8px 13px;
